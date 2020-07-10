@@ -32,7 +32,7 @@
                 <SortedDescendingHeaderStyle BackColor="#3E3277" />
             </asp:GridView>
             <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" SelectCommand="SELECT * FROM [Inventory]"></asp:SqlDataSource>
-            <a href="Customers.aspx">Go Back to Gates Cell Phone (Main Menu)</a></div>
+            <a href="Default.aspx">Go Back to Gates Cell Phone (Main Menu)</a></div>
     </form>
 </body>
 </html>
